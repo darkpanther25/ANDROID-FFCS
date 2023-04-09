@@ -21,7 +21,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.loginText}>Login Page</Text>
+      <Text style={styles.loginText}>Login</Text>
       <View style={styles.inputFields}>
         <TextInput onChangeText={e => handleInputUsername(e)} defaultValue={username} style={styles.inputs} placeholder="Username" />
         <TextInput onChangeText={e => handleInputPassword(e)} defaultValue={password} style={styles.inputs} placeholder="Password" secureTextEntry />
